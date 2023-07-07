@@ -1,0 +1,3 @@
+C:/Users/Keerthan Kumar/CLionProjects/AirlineBooking/cmake-build-debug/CMakeFiles/AirlineBooking.dir
+C:/Users/Keerthan Kumar/CLionProjects/AirlineBooking/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Keerthan Kumar/CLionProjects/AirlineBooking/cmake-build-debug/CMakeFiles/rebuild_cache.dir
