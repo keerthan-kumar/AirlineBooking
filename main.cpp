@@ -1,4 +1,3 @@
-
 #include<iostream>
 #include<fstream>
 #include<iomanip>
@@ -12,6 +11,7 @@ public:
         mainmenu();
     }
 };
+
 class details{
 public:
     static string name,gender;
@@ -80,14 +80,15 @@ public:
                     flights();
                 }
 
-                cout<<"press any key to go back to main menu:"<<"\n";
+                cout<<"Press 1 to go back to mainmenu:";
                 cin>>back;
                 if(back==1){
                     mainmenu();
+                    break;
                 }else {
                     mainmenu();
+                    break;
                 }
-
 
 
 
@@ -123,13 +124,16 @@ public:
                     cout<<"invalid input,please try again"<<"\n";
                     flights();
                 }
-                cout<<"press any key to go back to main menu:"<<"\n";
+                cout<<"Press 1 to go back to mainmenu:";
                 cin>>back;
                 if(back==1){
                     mainmenu();
+                    break;
                 }else {
                     mainmenu();
+                    break;
                 }
+
 
 
 
@@ -160,12 +164,14 @@ public:
                     cout<<"invalid input,please try again"<<"\n";
                     flights();
                 }
-                cout<<"press any key to go back to main menu:"<<"\n";
+                cout<<"Press 1 to go back to mainmenu:";
                 cin>>back;
                 if(back==1){
                     mainmenu();
+                    break;
                 }else {
                     mainmenu();
+                    break;
                 }
 
 
@@ -194,12 +200,14 @@ public:
                     cout<<"please collect the ticket in mainmenu"<<"\n";
                 }else {cout<<"invalid input,please try again"<<"\n";
                     flights();                                            }
-                cout<<"press any key to go back to main menu:"<<"\n";
+                cout<<"Press 1 to go back to mainmenu:";
                 cin>>back;
                 if(back==1){
                     mainmenu();
+                    break;
                 }else {
                     mainmenu();
+                    break;
                 }
 
 
@@ -228,13 +236,17 @@ public:
                     cout<<"Please collect the ticket in main menu"<<"\n";
                 }else {cout<<"invalid input,please try again"<<"\n";
                     flights();                                            }
-                cout<<"Press any key to go back to main menu:"<<"\n";
+
+                cout<<"Press 1 to go back to mainmenu:";
                 cin>>back;
                 if(back==1){
                     mainmenu();
+                    break;
                 }else {
                     mainmenu();
+                    break;
                 }
+
 
 
             }
@@ -277,7 +289,7 @@ public:
                 destination="HYDERABAD";
             }
             outf<<"Destination:"<<destination<<"\n";
-            outf<<"flight price"<<registration::charges<<"\n";
+            outf<<"flight price:"<<registration::charges<<"\n";
 
 
 
@@ -313,8 +325,8 @@ void mainmenu(){
     cout<<"\t|\t Press 2 for flight registration   \t|"<<"\n";
     cout<<"\t|\t Press 3 for ticket and charges    \t|"<<"\n";
     cout<<"\t|\t Press 4 for exit                  \t|"<<"\n";
-    cout<<"\t|\t\t\t\t\t\t|";
-    cout<<"\t________________________________________________"<<'\n';
+    cout<<"\t|\t\t\t\t\t\t|"<<"\n";
+
 
     cout<<"Enter your choice: ";
     cin>>lchoice;
@@ -375,6 +387,7 @@ void mainmenu(){
 
 
 }
+
 int main(){
     management m;
     return 0;
